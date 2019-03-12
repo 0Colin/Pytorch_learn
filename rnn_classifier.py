@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 EPOCH = 1               # train the training data n times, to save time, we just train 1 epoch
 BATCH_SIZE = 64
 TIME_STEP = 28          # rnn time step / image height 每一步一个时间点去读取图片的一行
-INPUT_SIZE = 28         # rnn input size / image width
+INPUT_SIZE = 28         # rnn input size / image width 输入图片的大小，28*28，手写笔图片是28*28
 LR = 0.01               # learning rate
 DOWNLOAD_MNIST = True   # set to True if haven't download the data
 
